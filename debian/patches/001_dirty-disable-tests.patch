@@ -1,5 +1,10 @@
---- /home/bob/Desktop/00_MX-21_NEXT/00_NEXT/live-chart_1.9.1/build_WIP/live-chart-1.9.1/meson.build
-+++ /home/bob/Desktop/00_MX-21_NEXT/00_NEXT/live-chart_1.9.1/build_WIP/live-chart-1.9.1/meson2.build
+Description: dirtily disable tests because they try to create an 
+X server connection which isn't going to work when building in schroot
+Forwarded: yes
+Author: SwampRabbit <swamprabbit@mxlinux.org>
+
+--- a/meson.build 2021-12-20 10:04:37.000000000 -0400
++++ b/meson.build 2021-12-20 01:47:50.243738660 -0400
 @@ -21,5 +21,5 @@
  ]
  
