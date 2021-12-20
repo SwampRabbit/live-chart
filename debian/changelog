@@ -1,0 +1,5 @@
+live-chart (1.9.1-1) unstable; urgency=medium
+
+  * Initial debianization of package.
+
+ -- SwampRabbit <swamprabbit@mxlinux.org>  Mon, 20 Dec 2021 11:23:31 -0500
