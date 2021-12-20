@@ -1,0 +1,27 @@
+Source: live-chart
+Section: libs
+Priority: optional
+Maintainer: SwampRabbit <swamprabbit@mxlinux.org>
+Build-Depends: debhelper-compat (= 13),
+               meson,
+               libgee-0.8-dev,
+               libgtk-3-dev,
+               valac,
+               valadoc
+Standards-Version: 4.5.0
+Homepage: https://github.com/lcallarec/live-chart
+Vcs-Browser: https://github.com/lcallarec/live-chart
+#Vcs-Git: https://github.com/lcallarec/live-chart.git
+
+Package: live-chart
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: real-time charting library for GTK3 and Vala
+ Live Chart is a real-time charting library for GTK3 and Vala, based on Cairo.
+ .
+ Features:
+ - Live animated series (lines, smooth lines, area, bar) within a single chart
+ - Smart y-axis computation
+ - Highly configurable
+ - Extendable
+
