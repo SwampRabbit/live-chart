@@ -1,0 +1,10 @@
+--- /home/bob/Desktop/00_MX-21_NEXT/00_NEXT/live-chart_1.9.1/build_WIP/live-chart-1.9.1/meson.build
++++ /home/bob/Desktop/00_MX-21_NEXT/00_NEXT/live-chart_1.9.1/build_WIP/live-chart-1.9.1/meson2.build
+@@ -21,5 +21,5 @@
+ ]
+ 
+ subdir('src')
+-subdir('tests')
++#subdir('tests')
+ subdir('examples')
+
